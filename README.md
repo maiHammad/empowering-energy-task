@@ -1,6 +1,10 @@
 # Getting Started with empowering-energy-task
 
-Please run npm i to install necessary packeges
+Please open terminal and run 
+npm i
+to install necessary packeges
+then 
+npm start
 
 ## solution stacture
 
