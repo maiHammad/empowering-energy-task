@@ -6,7 +6,15 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.css-tlc64q-MuiPaper-root-MuiDialog-paper{
+  min-width: 600px;
+}
+.css-rnmm7m-MuiPaper-root-MuiDialog-paper{
+  min-width: 900px;
+}
+.css-cyxlny-MuiPaper-root-MuiDialog-paper{
+  min-width: 1200px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

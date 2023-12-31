@@ -10,42 +10,34 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import MailIcon from '@mui/icons-material/Mail';
-import Toolbar from '@mui/material/Toolbar';
+import logo from "../assets/Logo.webp";
+import { Link } from 'react-router-dom';
 
-const drawerWidth = 240;
+const drawerWidth = '16%';
 
 function SystemMenu(props) {
 
 
   const drawer = (
     <div>
-      <Toolbar />
+     <Link to="/"><img style={{width:"100%"}} src={logo} alt="Empowering enegery"/></Link> 
       <Divider />
       <List>
-        {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
+        {[{name:'Daily Expencess',path:'/DailyExpencess'}, {name:'Daily Labour',path:'/UnderConstraction'}, {name:'Request Money',path:'/UnderConstraction'}].map((text, index) => (
+          <ListItem key={text.name} disablePadding>
+         <Link style={{width:"100%",textDecoration:"none",color:'rgba(0, 0, 0, 0.54)'}} to={text.path}>
+         <ListItemButton >
               <ListItemIcon>
                 {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
               </ListItemIcon>
-              <ListItemText primary={text} />
+              <ListItemText primary={text.name} />
             </ListItemButton>
+         </Link>
+
           </ListItem>
         ))}
       </List>
       <Divider />
-      <List>
-        {['All mail', 'Trash', 'Spam'].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
     </div>
   );
 

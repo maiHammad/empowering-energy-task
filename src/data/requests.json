@@ -1,0 +1,80 @@
+[{
+  "itemDesc":"item 1 description",
+  "comment":"item 1 comment",
+  "quantity":"1",
+  "unit":"unit 1",
+  "amount":"100",
+  "filesType":"image",
+  "files":[["/assets/invoicesExamples/invoice1.png"]]
+},
+{
+    "itemDesc":"item 2 description",
+    "comment":"item 2 comment",
+    "quantity":"3",
+    "unit":"unit 2",
+    "amount":"500",
+    "filesType":"image",
+    "files":[["/assets/invoicesExamples/invoice1.png","/assets/invoicesExamples/invoice2.png","/assets/invoicesExamples/invoice3.png"]]
+
+  },
+  {
+    "itemDesc":"item 3 description",
+    "comment":"item 3 comment",
+    "quantity":"1",
+    "unit":"unit 3",
+    "amount":"200",
+    "filesType":"pdf",
+    "files":[["/assets/invoicesExamples/InvoiceSimple-PDF-Template.pdf"]]
+
+  },
+  {
+    "itemDesc":"item 4 description",
+    "comment":"item 4 comment",
+    "quantity":"1",
+    "unit":"unit 4",
+    "amount":"100",
+    "filesType":"image",
+    "files":[["/assets/invoicesExamples/invoice4.png"]]
+
+  },
+  {
+    "itemDesc":"item 5 description",
+    "comment":"item 5 comment",
+    "quantity":"5",
+    "unit":"unit 5",
+    "amount":"700",
+    "filesType":"image",
+    "files":[["/assets/invoicesExamples/invoice2.png"]]
+
+  },
+  {
+    "itemDesc":"item 6 description",
+    "comment":"item 6 comment",
+    "quantity":"1",
+    "unit":"unit 1",
+    "amount":"300",
+    "filesType":"image",
+    "files":[]
+
+  },
+  {
+    "itemDesc":"item 7 description",
+    "comment":"item 7 comment",
+    "quantity":"1",
+    "unit":"unit 1",
+    "amount":"600",
+    "filesType":"image",
+    "files":[["/assets/invoicesExamples/invoice3.png"]]
+
+  },
+  {
+    "itemDesc":"item 8 description",
+    "comment":"item 8 comment",
+    "quantity":"1",
+    "unit":"unit 6",
+    "amount":"600",
+    "filesType":"image",
+    "files":[]
+
+  }
+]
